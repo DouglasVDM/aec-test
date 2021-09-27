@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "name": "The Ubuntu Learning Community",
+      "target": "2021",
+      "description": "The Ubuntu Learning Community (“ULC”) is a new Stellenbosch University-prison partnership – the first of its kind in South Africa. Its aim is to rehumanise learning by focusing on learning’s social, ubuntu-focused dimensions – collaboration, community-building and connectedness.  It conceives of collaborative education as the “practice of freedom”​ (Paolo Freire) – a tool for transformation and empowerment.",
+      "owner": [
+        "Nel, Mary"
+      ],
+      "id": 1
+    },
+    {
+      "name": "Advancing Engaged Citizenship",
+      "target": "2021",
+      "description": "The purpose of this project was to create a platform where students can journey with a team of advisors to assist with the innovation of project ideas, during the conceptualization and implementation phase. It allows students to complete a standard template with prompts to answer key questions. It also allows university staff to provide feedbackand mentorship via the platform.",
+      "owner": [
+        "Douglas",
+        "Jonathan",
+        "Lawrence",
+        "Simba"
+      ],
+      "id": 2
+    },
+    {
+      "name": "Velddrif Entrepreneurship Programme",
+      "target": "2021",
+      "description": "The purpose of this project will be to run/present a youth entrepreneur program twice a year focusing on around 10 identified young people (age 18 to 25) lasting about 12 weeks each.  The program will be practical as much as possible. The program will also focus on linking these young people with established businesses and organizations.  Post-program support will also be available to keep track of the successes and failures of the program.  The program will also align and work with existing NGO's within Noordhoek to pull resources and create synergies.  Working the Bergriver Municipality and the Velddrif Chamber of Business will also be relevant and significant, especially in terms of selecting the youth and mentorships.",
+      "owner": [
+        "Coetzee, CE, Dr"
+      ]
+    },
+    {
+      "id": 3
+    }
+  ]
+}
