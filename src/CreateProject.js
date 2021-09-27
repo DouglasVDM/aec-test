@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
+import ImageUpload from "./components/ImageUpload";
 
 const CreateProject = () => {
   const [name, setName] = useState("");
@@ -27,6 +28,7 @@ const CreateProject = () => {
   return (
     <div className="create">
       <h2>Add a New Project</h2>
+      <ImageUpload />
       <form onSubmit={handleSubmit}>
         <label>Project name:</label>
         <input
