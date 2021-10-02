@@ -5,9 +5,9 @@ import CreateProject from './CreateProject.js';
 import ProjectDetails from './ProjectDetails';
 import NotFound from './NotFound';
 import ImageUpload from './components/ImageUpload';
-import UploadFiles from "./components/upload-files.component";
 import { Typography } from '@material-ui/core';
-
+import FileUpload from './FileUpload';
+import MultiStepForm from './components/MultiStepForm';
 
 
 function App() {
@@ -15,10 +15,14 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
+        <FileUpload />
         <div className="content">
           <Switch>
             <Route exact path="/">
               <Home />
+            </Route>
+            <Route exact path="/multi-step-form">
+              <MultiStepForm />
             </Route>
             <Route path="/image">
               <ImageUpload />
@@ -43,8 +47,6 @@ function App() {
               Material UI File Upload
             </Typography>
           </div>
-
-          <UploadFiles />
         </div>
       </div>
     </Router>
