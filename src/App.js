@@ -7,7 +7,7 @@ import NotFound from './NotFound';
 import ImageUpload from './components/ImageUpload';
 import { Typography } from '@material-ui/core';
 import FileUpload from './FileUpload';
-import MultiStepForm from './components/MultiStepForm';
+import MultiStepForm from './components/AddProposal';
 
 
 function App() {
