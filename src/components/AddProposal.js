@@ -1,14 +1,13 @@
 import { useState } from "react";
-import "./styles.css";
-import StepOne from "./StepOne";
-import StepTwo from "./StepTwo";
-import StepThree from "./StepThree";
-import StepFour from "./StepFour";
-import StepFive from "./StepFive";
-import StepSix from "./StepSix";
-import StepSeven from "./StepSeven";
-import StepEight from "./StepEight";
-import StepNine from "./StepNine";
+import StepOne from "./addproposalsteps/StepOne";
+import StepTwo from "./addproposalsteps/StepTwo";
+import StepThree from "./addproposalsteps/StepThree";
+import StepFour from "./addproposalsteps/StepFour";
+import StepFive from "./addproposalsteps/StepFive";
+import StepSix from "./addproposalsteps/StepSix";
+import StepSeven from "./addproposalsteps/StepSeven";
+import StepEight from "./addproposalsteps/StepEight";
+import StepNine from "./addproposalsteps/StepNine";
 import Box from '@mui/material/Box';
 
 
