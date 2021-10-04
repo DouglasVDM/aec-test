@@ -5,9 +5,9 @@ import CreateProject from './CreateProject.js';
 import ProjectDetails from './ProjectDetails';
 import NotFound from './NotFound';
 import ImageUpload from './components/ImageUpload';
-import { Typography } from '@material-ui/core';
 import FileUpload from './FileUpload';
 import MultiStepForm from './components/AddProposal';
+import ProposalTempl from './components/ProposalTempl';
 
 
 function App() {
@@ -15,7 +15,6 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <FileUpload />
         <div className="content">
           <Switch>
             <Route exact path="/">
@@ -23,6 +22,12 @@ function App() {
             </Route>
             <Route exact path="/multi-step-form">
               <MultiStepForm />
+            </Route>
+            <Route exact path="/export-pdf">
+              <ProposalTempl />
+            </Route>
+            <Route exact path="/file-upload">
+              <FileUpload />
             </Route>
             <Route path="/image">
               <ImageUpload />
@@ -37,16 +42,6 @@ function App() {
               <NotFound />
             </Route>
           </Switch>
-        </div>
-        <div className="container">
-          <div className="mg20">
-            <Typography variant="h5">
-              bezkoder.com
-            </Typography>
-            <Typography variant="h6">
-              Material UI File Upload
-            </Typography>
-          </div>
         </div>
       </div>
     </Router>

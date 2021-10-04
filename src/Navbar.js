@@ -6,6 +6,9 @@ const Navbar = () => {
       <h1>Advancing Engaged Citizenship</h1>
       <div className="links">
         <Link to="/">Home</Link>
+        <Link to="/export-pdf">Export PDF</Link>
+        <Link to="/multi-step-form">Multistep Form</Link>
+        <Link to="/file-upload">File Upload</Link>
         <Link to="/create" style={{
           color: 'white',
           backgroundColor: '#f1356d',
