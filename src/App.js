@@ -8,6 +8,7 @@ import ImageUpload from './components/ImageUpload';
 import { Typography } from '@material-ui/core';
 import FileUpload from './FileUpload';
 import MultiStepForm from './components/AddProposal';
+import NeonButton from './components/buttons/NeonButton';
 
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
           <Switch>
             <Route exact path="/">
               <Home />
+            </Route>
+            <Route exact path="/button">
+              <NeonButton />
             </Route>
             <Route exact path="/multi-step-form">
               <MultiStepForm />
